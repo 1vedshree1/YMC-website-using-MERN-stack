@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#activity{
+    position: absolute; 
+    top:150px; 
+    left:50%; 
+    transform: translate(-50%,-50%);
+    font-family:cursive;
+    font-style: italic;
+    font-weight:600;
+    font-size: 60px;
+    color: rgb(8, 73, 16);
+}
+hr{
+    height: 2px;
+    background-color: rgb(64, 65, 66);
+
+}
+#actimg{
+    height: 450px;
+}
+#disimg{
+     border-radius:65px;
+}
+#head{
+    position: relative;
+}

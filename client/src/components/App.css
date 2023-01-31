@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  background: url("https://secureservercdn.net/160.153.138.94/x9a.171.myftpupload.com/wp-content/uploads/2021/03/65124-lpxqqtecmy-1502157349.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding:1px;
+ 
+}
+
+.banner__content {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+.container {
+  width: 1200px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.banner__text {
+  width: 500px;
+  color: #fff;
+}
+.banner__text h3 {
+  font-size: 50px;
+  color: #fff;
+}
+.banner__text h1 {
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: 900;
+  margin-top: 20px;
+  color: #fff;
+}
+.banner__text p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.navbar__text {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+.logo {
+  width: 40%;
+}
+.logo img {
+  width: 220px;
+}
+.navbar__ul {
+  width: 60%;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar__ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0 15px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.banner__btn {
+  margin-top: 35px;
+}
+
+.btn {
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 30px;
+  font-size: 12px;
+  padding: 20px 40px;
+}
+.btn-smart {
+  background: rgb(66, 192, 41);
+}
+.about {
+  padding: 80px 0;
+}
+
+.p-25 {
+  padding: 45px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-6 {
+  width: 50%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33333333333333%;
+}
+.about h3 {
+  color: rgba(37, 37, 37, 0.7);
+  font-size: 30px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+.about h1 {
+  font-size: 40px;
+  color: #252525;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+.about p {
+  font-size: 18px;
+  color: #8b8b8b;
+  font-weight: 300;
+}
+
+.about__btn {
+  margin-top: 35px;
+}
+.about__img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.about__img img {
+  width: 100%;
+}
+
+  /* about*/
+
+  .info-block-down-img{
+    background-color: lightgrey;
+    border: 10px inset green;
+    padding: 40px;
+    margin: 50px;
+    margin-top: 50px;
+    font-size: large;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+  }
+  .style-font-align
+  {
+    text-align: center;
+    font-size: larger;
+  }
+
+

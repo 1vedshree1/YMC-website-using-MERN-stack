@@ -1,0 +1,171 @@
+@import '~antd/dist/antd.css';
+
+
+.menu {
+  padding: 5 20px;
+  
+  border-top: solid 5px white;
+  
+ 
+  background: white;
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  width:100px;height:80px;
+  
+  box-shadow: 10px -10px 5px  rgba(0,0,0,0.6);
+  -moz-box-shadow: 10px -10px 5px  rgba(0,0,0,0.6);
+  -webkit-box-shadow: 10px -10px 5px  rgba(0,0,0,0.6);
+  -o-box-shadow: 10px -10px 5px  rgba(0, 0, 0, 0.6);
+  border-radius:25px;
+  
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 60%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+.menu__logo {
+  width: 200px;
+  height: 100px;
+  float: left;
+}
+
+.menu__logo a {
+  display: block;
+  font-size: 10px;
+  padding: 2px 20px;
+}
+
+.menu__container .ant-menu-item {
+  padding: 0px 5px;
+ 
+  background: linear-gradient(-45deg, #68b15a, #b9dd57, rgb(181, 238, 117),  #71dd8c);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  width:100px;height:50px;
+  border: solid 1px #555;
+  box-shadow: 10px -10px 5px  rgba(0,0,0,0.6);
+  -moz-box-shadow: 10px -10px 10px  rgba(0,0,0,0.6);
+  -webkit-box-shadow: 10px -10px 10px  rgba(0,0,0,0.6);
+  -o-box-shadow: 10px -10px 10px  rgba(6, 24, 2, 0.6);
+  border-radius:20px;
+  
+  
+}
+
+.menu__container .ant-menu-submenu-title {
+  padding: 10px 25px;
+  
+  background: linear-gradient(-45deg, #68b15a,#b9dd57, rgb(181, 238, 117),  #71dd8c);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  width:100px;height:50px;
+  border: solid 1px #555;
+  box-shadow: 10px -10px 5px  rgba(0,0,0,0.6);
+  -moz-box-shadow: 10px -10px 5px  rgba(0,0,0,0.6);
+  -webkit-box-shadow: 10px -10px 5px  rgba(0,0,0,0.6);
+  -o-box-shadow: 10px -10px 5px  rgba(0,0,0,0.6);
+  border-radius:20px;
+  
+
+}
+
+.menu__container .ant-menu-item a,
+.menu__container .ant-menu-submenu-title a {
+  padding: 10px 15px;
+  
+  
+}
+
+.menu__container .ant-menu-horizontal {
+  border-bottom: none;
+}
+
+.menu__container .menu_left {
+  float: left;
+  
+
+
+  
+}
+
+.menu__container .menu_rigth {
+  float: right;
+}
+
+.menu__mobile-button {
+  float: right;
+  height: 32px;
+  padding: 6px;
+  margin-top: 8px;
+  display: none !important; /* use of important to overwrite ant-btn */
+  background: #24cc15;
+}
+
+.menu_drawer .ant-drawer-body {
+  padding: 0 !important;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+
+/* align header of Drawer with header of page */
+.menu_drawer .ant-drawer-header {
+  padding: 14px 24px !important;
+  
+}
+
+@media (max-width: 767px) {
+  .menu__mobile-button {
+    display: inline-block !important;
+  }
+
+  .menu_left,
+  .menu_rigth {
+    display: none;
+    padding: 0 20px;
+  border-bottom: solid 1px #10b40a;
+  border-top: solid 5px #10b40a;
+  overflow: auto;
+ 
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+
+
+  }
+
+  .menu__logo a {
+    margin-left: -20px;
+  }
+
+  .menu__container .ant-menu-item,
+  .menu__container .ant-menu-submenu-title {
+    padding: 1px 20px;
+     border-bottom: solid 1px #10b40a;
+  border-top: solid 5px #10b40a;
+  overflow: auto;
+ 
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  }
+
+  .menu__logo a {
+    padding: 10px 20px;
+  }
+
+ 
+
+/* BVAmbient Style */
+
+
+
+  /*Banner*/
+
+  }
